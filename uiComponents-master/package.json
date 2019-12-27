@@ -47,7 +47,7 @@
     "react-tap-event-plugin": "^3.0.2",
     "redux": "^3.7.2",
     "redux-subscriber": "^1.1.0",
-    "yarn": "^1.5.1"
+    "yarn": "^1.17.3"
   },
   "jest": {
     "testEnvironment": "enzyme",
