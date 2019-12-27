@@ -1,0 +1,101 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background: #000;
+}
+.bodyView{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,h2,h3,p,ul,li {
+  cursor:default;
+}
+
+/* .NAVBAR{
+  position: fixed;
+  top: 0;
+} */
+
+.limitBody {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+h3 {
+  color:#fff;
+  font-size:2em !important;
+}
+.findUs a {
+  display:inline-block;
+  font-size:1.2em;
+  padding-right:20px;
+  font-weight:100;
+}
+
+.NAVBAR {
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+
+.NAVBAR a {
+  font-weight:bold;
+}
+
+h1, h2, h3 {
+  color:#fff;
+  line-height:1em;
+  font-weight:100 !important;
+}
+
+.drawer_profile_card {
+  padding-top:40px !important;
+  padding-bottom:40px !important;
+}
+.like:active {
+    text-decoration-color: pink;
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake .5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+.home{
+}
+
+@keyframes highlight {
+  0% {
+    background: yellow
+  }
+  100% {
+    background: none;
+  }
+}
+
+.mined {
+  animation: highlight 2s;
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+a {
+  color: White;
+  text-decoration: none; /* no underline */
+}
